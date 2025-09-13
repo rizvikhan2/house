@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+    <!-- daysiUi CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .poppins-thin {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+
+    <!-- Fontawsom -->
+    <script src="https://kit.fontawesome.com/638b02a87d.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="poppins-thin ">
+    <header class=" bg-slate-100">
+        <!-- Navber start -->
+        <div class="navbar  container mx-auto ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow text-lg">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <a class="cursor-pointer text-2xl hover:text-lime-500">Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-lg ">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end gap-4">
+                <!-- <i class="fa-solid fa-magnifying-glass text-sm lg:text-lg text-black"></i>
+                <i class="fa-solid fa-cart-shopping text-lg text-black"></i> -->
+                <a class="btn text-lg bg-lime-200 rounded-2xl hover:bg-transparent border border-lime-300 ">Book
+                    Consult<i class="fa-solid fa-arrow-right text-lg text-black"></i></a>
+            </div>
+        </div>
+        <!-- Navber end -->
+
+        <!-- Banner start -->
+        <div class="hero  min-h-screen container mx-auto">
+            <div class="hero-content ">
+                <div class="max-w-lg text-center">
+                    <img src="assets/banner.png" alt="">
+                    <h1 class="pt-6 text-3xl font-extrabold ">A barn house of this design has a
+                        striking appearance</h1>
+                    <p class="py-6  text-sm">
+                        The barn house captivates with its blend of rustic charm and modern
+                        sophistication, featuring weathered wood, sleek metal accents, and large
+                        windows that flood the space with natural light.
+                    </p>
+                    <a class="btn text-lg bg-lime-200 rounded-2xl hover:bg-transparent border border-lime-300 ">View
+                        Details<i class="fa-solid fa-arrow-right text-lg text-black"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Banner end -->
+    </header>
+
+    <main class="container mx-auto my-20">
+        <!-- About Us start -->
+        <div class="hero  min-h-screen">
+            <div class="hero-content flex-col lg:flex-row ">
+                <div>
+                    <img src="assets/Vector.png" alt="">
+                    <a class="btn text-lg bg-white rounded-2xl text-black mt-4">About us<i
+                            class="fa-solid fa-arrow-right text-lg text-black"></i></a>
+                    <h1 class="text-3xl font-bold py-2">We design thoughtful, <br>
+                        liveable spaces </h1>
+                    <p class="text-sm text-balance">
+                        The barn house captivates with its blend of rustic charm and <br> modern sophistication,
+                        featuring weathered wood, sleek metal accents.
+                    </p>
+                    <!-- card 1 start -->
+                    <div class="w-auto bg-white p-2 flex my-2 gap-4 shadow-sm rounded-sm text-balance">
+                        <img src="assets/commercial.png" alt="">
+                        <div>
+                            <h4 class="text-lg font-semibold">Commercial</h4>
+                            <p class="text-sm">The barn house captivates with its blend <br>
+                                of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <!-- card 1 end -->
+                    <!-- card 2 start -->
+                    <div class="w-auto bg-white p-2 flex my-2 gap-4 shadow-sm rounded-sm text-balance">
+                        <img src="assets/residential.png" alt="">
+                        <div>
+                            <h4 class="text-lg font-semibold">Residential</h4>
+                            <p class="text-sm">The barn house captivates with its blend <br>
+                                of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <!-- card 2 end -->
+
+                </div>
+
+                <img src="assets/Rectangle.png" class="max-w-sm rounded-lg shadow-2xl" />
+
+
+            </div>
+        </div>
+        <!-- About Us end -->
+
+
+        <!-- slat start -->
+        <div class="bg-white shadow-lg p-16">
+            <div class="grid grid-cols-1 lg:grid-cols-4  justify-center gap-4">
+                <div class="stat grid justify-items-center">
+                    <i class="fa-solid fa-message text-2xl "></i>
+                    <div class="stat-value">235+</div>
+                    <div class="stat-desc">Happy Client Review</div>
+                </div>
+
+                <div class="stat grid justify-items-center">
+                    <i class="fa-solid fa-briefcase text-2xl"></i>
+                    <div class="stat-value">50+</div>
+                    <div class="stat-desc">Work Departments</div>
+                </div>
+
+                <div class="stat grid justify-items-center">
+                    <i class="fa-solid fa-users text-2xl"></i>
+                    <div class="stat-value">30k+</div>
+                    <div class="stat-desc">Our Happy Client</div>
+                </div>
+
+                <div class="stat grid justify-items-center">
+                    <i class="fa-solid fa-people-arrows text-2xl"></i>
+                    <div class="stat-value">307+</div>
+                    <div class="stat-desc">Staff Members</div>
+                </div>
+
+            
+        </div>
+        </div>
+        <!-- slat end -->
+         
+    </main>
+
+
+</body>
+
+</html>
